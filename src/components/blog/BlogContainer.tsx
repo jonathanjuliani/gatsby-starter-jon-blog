@@ -108,9 +108,9 @@ const BlogContainer: React.FC<BlogContainerProps> = ({ posts }) => {
 
         return (
           <>
-            {/* Shows on mobile devices 
+            {/* Test showing on mobile devices 
                 I left this two options here for you 
-                to devide how to style on different devices */}
+                so you can choose/refator/test how to style on different devices */}
             <SmallDevices key={post.fields.slug} post={post} index={index} image={image} />
             {/* shows on bigger devices */}
             <BiggerDevices key={post.fields.slug} post={post} index={index} image={image} />

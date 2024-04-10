@@ -60,21 +60,12 @@ const config = {
         ],
       },
     },
-
     {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/icon.png",
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-google-tagmanager", // this plugin allows you to use Google Tag Manager to track your website
-    //   options: {
-    //     id: "GXX-XXXXXXXX",
-    //     includeInDevelopment: false,
-    //     defaultDataLayer: { platform: "gatsby" },
-    //   },
-    // },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -99,6 +90,14 @@ const config = {
       },
       __key: "blog",
     },
+    // {
+    //   resolve: "gatsby-plugin-google-tagmanager", // this plugin allows you to use Google Tag Manager to track your website
+    //   options: {
+    //     id: "GXX-XXXXXXXX",
+    //     includeInDevelopment: false,
+    //     defaultDataLayer: { platform: "gatsby" },
+    //   },
+    // },
   ],
 };
 
